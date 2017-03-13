@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using HotelManagerCommon;
 namespace HotelManager
 {
     public partial class MainInitial : Form
@@ -18,15 +18,21 @@ namespace HotelManager
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            MainLogin login = new MainLogin();
-            login.Show();
-            this.Hide();
-            timer1.Stop();
+            progressBar1.Value = progressBar1.Value + 1;
+            if (progressBar1.Value == 100)
+            {
+                timer1.Stop();
+                MainLogin login = new MainLogin();
+                login.Show();
+                this.Hide();
+            }
         }
 
         private void MainInitial_Load(object sender, EventArgs e)
         {
-            this.BackgroundImage = Image.FromFile("pic/3.jpg");
+            PictureOperation.SetPicture(pictureBox1, "pic/3.jpg");
+            progressBar1.Value = 1;
+           
         }
     }
 }

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("HotelManager")]
+[assembly: AssemblyTitle("酒店管理系统")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("微软中国")]
-[assembly: AssemblyProduct("HotelManager")]
-[assembly: AssemblyCopyright("Copyright © 微软中国 2017")]
+[assembly: AssemblyCompany("青鸟")]
+[assembly: AssemblyProduct("酒店管理系统")]
+[assembly: AssemblyCopyright("Copyright © 青鸟 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

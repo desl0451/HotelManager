@@ -79,13 +79,52 @@ namespace HotelManager
         private void MainForm_Load(object sender, EventArgs e)
         {
             this.BackgroundImage = Image.FromFile("pic/1.jpg");
-            tsslTime.Text = DateTime.Now.ToLocalTime().ToString();
-            tsbQieHuanYongHu.Image=PictureOperation.MaskPic("pic/tools.png",new Point[]{new Point(100,100)});
+            tsslTime.Text = "          " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")+"           ";
+            tsbQieHuanYongHu.Image = Image.FromFile("pic/tools/tool1.png");
         }
 
         private void tBiao_Tick(object sender, EventArgs e)
         {
-            tsslTime.Text = DateTime.Now.ToLocalTime().ToString();
+            tsslTime.Text = "          " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "           ";
+        }
+        /// <summary>
+        /// 窗体关闭时提示对话框
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("您是否想退出本系统?", "操作提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                this.Dispose();
+            }
+            else
+            {
+                e.Cancel = true;
+                this.WindowState = FormWindowState.Maximized;
+                this.Visible = true;
+                this.notifyIcon1.Visible = true;
+            }
+        }
+        /// <summary>
+        /// 退出程序
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void tsmiTuiChu_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("您是否想退出本系统?", "操作提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void tsbSuoDingXiTong_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
         }
     }
 }
