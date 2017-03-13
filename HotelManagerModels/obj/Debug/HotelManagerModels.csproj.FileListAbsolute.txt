@@ -1,0 +1,5 @@
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerModels\bin\Debug\HotelManagerModels.dll
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerModels\bin\Debug\HotelManagerModels.pdb
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerModels\obj\Debug\HotelManagerModels.csprojResolveAssemblyReference.cache
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerModels\obj\Debug\HotelManagerModels.dll
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerModels\obj\Debug\HotelManagerModels.pdb

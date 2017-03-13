@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{394E778A-FF1D-4DB7-B3C7-D1DA895C71F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotelManager</RootNamespace>
+    <AssemblyName>HotelManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UI\ServiceManage\GuestInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ServiceManage\GuestInfoForm.Designer.cs">
+      <DependentUpon>GuestInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainInitial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainInitial.Designer.cs">
+      <DependentUpon>MainInitial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MainLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MainLogin.Designer.cs">
+      <DependentUpon>MainLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\ServiceManage\RecordInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ServiceManage\RecordInfoForm.Designer.cs">
+      <DependentUpon>RecordInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BaseSettings\RoomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BaseSettings\RoomForm.Designer.cs">
+      <DependentUpon>RoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ServiceManage\RoomInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ServiceManage\RoomInfoForm.Designer.cs">
+      <DependentUpon>RoomInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BaseSettings\RoomTypeSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BaseSettings\RoomTypeSettingForm.Designer.cs">
+      <DependentUpon>RoomTypeSettingForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\ServiceManage\GuestInfoForm.resx">
+      <DependentUpon>GuestInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainInitial.resx">
+      <DependentUpon>MainInitial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MainLogin.resx">
+      <DependentUpon>MainLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\ServiceManage\RecordInfoForm.resx">
+      <DependentUpon>RecordInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BaseSettings\RoomForm.resx">
+      <DependentUpon>RoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ServiceManage\RoomInfoForm.resx">
+      <DependentUpon>RoomInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BaseSettings\RoomTypeSettingForm.resx">
+      <DependentUpon>RoomTypeSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HotelManagerBLL\HotelManagerBLL.csproj">
+      <Project>{7d0ba6f6-cd57-4262-bf1b-dcc61679a13f}</Project>
+      <Name>HotelManagerBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelManagerCommon\HotelManagerCommon.csproj">
+      <Project>{35ea87c3-b7e2-4728-8571-99fa828a1aee}</Project>
+      <Name>HotelManagerCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelManagerModels\HotelManagerModels.csproj">
+      <Project>{2e602331-7403-496f-92c2-d7dee90f6aa6}</Project>
+      <Name>HotelManagerModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerBLL.dll
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerBLL.pdb
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\obj\Debug\HotelManagerBLL.csprojResolveAssemblyReference.cache
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\obj\Debug\HotelManagerBLL.dll
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\obj\Debug\HotelManagerBLL.pdb
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerDAL.dll
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerModels.dll
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerDAL.pdb
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerModels.pdb
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerCommon.dll
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManagerBLL\bin\Debug\HotelManagerCommon.pdb
