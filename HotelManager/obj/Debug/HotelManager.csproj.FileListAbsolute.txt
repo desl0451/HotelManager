@@ -22,3 +22,4 @@ D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\Ho
 D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManager\obj\Debug\HotelManager.MainInitial.resources
 D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManager\bin\Debug\HotelManagerCommon.dll
 D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManager\bin\Debug\HotelManagerCommon.pdb
+D:\Work\ACCP7.0\S2\3.深入.NET平台的软件系统分层开发\HotelManager\HotelManager\obj\Debug\HotelManager.MainLock.resources

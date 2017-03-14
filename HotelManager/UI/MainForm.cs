@@ -104,7 +104,7 @@ namespace HotelManager
                 e.Cancel = true;
                 this.WindowState = FormWindowState.Maximized;
                 this.Visible = true;
-                this.notifyIcon1.Visible = true;
+                
             }
         }
         /// <summary>
@@ -124,7 +124,8 @@ namespace HotelManager
         private void tsbSuoDingXiTong_Click(object sender, EventArgs e)
         {
             this.Hide();
-
+            MainLock mainLock = new MainLock(this);
+            mainLock.Show();            
         }
     }
 }
